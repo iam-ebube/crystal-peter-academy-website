@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    min-height: 100vh;       /* Full screen height */
+    background-color: #f2f2f2; /* Optional: background */
+}
+
+.container {
+    text-align: center; /* Center text and inline elements */
+}
+
