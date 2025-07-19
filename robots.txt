@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://crystalpetersacademy.vercel.app/sitemap.xml
