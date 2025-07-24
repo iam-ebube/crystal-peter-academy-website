@@ -47,6 +47,7 @@ body {
 }
 
 header {
+  position: sticky;
   background: #008000;
   color: white;
   padding: 20px 0;
