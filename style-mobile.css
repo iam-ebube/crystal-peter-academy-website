@@ -83,3 +83,60 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Hide the regular nav list */
+  .ul {
+    display: none;
+  }
+
+  /* Hamburger Icon */
+  .mobile-menu-icon,
+  .mobile-menu-close {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1001;
+  }
+
+  .mobile-menu-close {
+    display: none;
+  }
+
+  /* Mobile Nav Styling */
+  #mobile-nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #008000;
+    z-index: 1000;
+    padding: 10px 0;
+  }
+
+  .mobile-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .mobile-ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .mobile-ul li a:hover {
+    color: #ffc107;
+  }
+}
+
