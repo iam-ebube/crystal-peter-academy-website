@@ -121,6 +121,10 @@ section.profile-pic{
   height:60%
 }
 
+#Admission {
+  text-align: justify;
+}
+
 .bx bx-map,
 bx bx-phone,
 bx bx-envelope{
