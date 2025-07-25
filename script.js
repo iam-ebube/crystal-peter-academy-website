@@ -23,7 +23,7 @@ let currentSlide = 0;
 
   setInterval(showNextSlide, 3000); // Change every 3 seconds
 
-<script>
+
   // Get the sidebar and all sidebar links
   const sidebar = document.getElementById('sidebar');
   const sidebarLinks = sidebar.querySelectorAll('a');
@@ -35,5 +35,9 @@ let currentSlide = 0;
       sidebar.style.left = '-100%'; // or display: none;
     });
   });
-</script>
+document.getElementById("close-icon").addEventListener("click", () => {
+  document.getElementById("sidebar").classList.remove("active");
+});
+
+
 
