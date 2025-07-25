@@ -151,6 +151,27 @@ section.profile-pic{
 #Contact-Us p {
   text-align: justify;
 }
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: nowrap; /* Prevent wrapping under icon */
+}
+
+.contact-item i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #333;
+  flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.contact-item span,
+.contact-item a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+  line-height: 1.5;
+}
 
 
 
