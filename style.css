@@ -76,6 +76,12 @@
   font-size: 18px;
 }
 
+#sidebar ul li a:hover {
+    color: limegreen;
+    transition: color 0.3s ease;
+}
+
+
 #close-icon {
   font-size: 30px;
   cursor: pointer;
