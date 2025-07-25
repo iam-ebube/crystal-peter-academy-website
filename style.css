@@ -79,6 +79,8 @@
 #sidebar ul li a:hover {
     color: limegreen;
     transition: color 0.3s ease;
+    background-color: #f0f0f0;
+    text-decoration: underline;
 }
 
 
