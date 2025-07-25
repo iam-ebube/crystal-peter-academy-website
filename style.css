@@ -41,6 +41,14 @@
   z-index: 1001;
 }
 
+.logo {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+
 /* Sidebar menu styling */
 #sidebar {
   position: fixed;
