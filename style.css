@@ -272,6 +272,21 @@ a.bx bxl-whatsapp {
   text-decoration: none;
 }
 
+.copyright-text {
+  white-space: nowrap;      /* prevents line break */
+  overflow: hidden;         /* hides overflow text (optional) */
+  text-overflow: ellipsis;  /* adds "..." if too long (optional) */
+  font-size: 14px;          /* smaller size helps fit */
+}
+
+.copyright-text {
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
 footer a {
   margin: 0 10px;
   color: white;
