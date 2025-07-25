@@ -60,12 +60,14 @@
   color: white;
   padding: 20px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+  transform: translateX(-100%);
   transition: left 0.3s ease-in-out;
   z-index: 9999;
 }
 
 #sidebar.active {
   left: 0;
+  transform: translateX(0);
 }
 
 #sidebar ul {
