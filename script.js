@@ -22,3 +22,18 @@ let currentSlide = 0;
   }
 
   setInterval(showNextSlide, 3000); // Change every 3 seconds
+
+<script>
+  // Get the sidebar and all sidebar links
+  const sidebar = document.getElementById('sidebar');
+  const sidebarLinks = sidebar.querySelectorAll('a');
+
+  // Loop through each link
+  sidebarLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      // Close the sidebar (e.g., hide it)
+      sidebar.style.left = '-100%'; // or display: none;
+    });
+  });
+</script>
+
