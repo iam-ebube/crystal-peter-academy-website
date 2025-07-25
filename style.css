@@ -274,8 +274,6 @@ a.bx bxl-whatsapp {
 
 .copyright-text {
   white-space: nowrap;      /* prevents line break */
-  overflow: hidden;         /* hides overflow text (optional) */
-  text-overflow: ellipsis;  /* adds "..." if too long (optional) */
   font-size: 14px;          /* smaller size helps fit */
 }
 
