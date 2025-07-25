@@ -146,16 +146,12 @@ section.profile-pic{
   height:60%
 }
 
-#About-Us,
-#Admission,
-#Contact-Us,
-#Our-Vision{
+#About-us p,
+#Admission p,
+#Contact-Us p {
   text-align: justify;
 }
 
-#About-Us{
-  text-align: justify;
-}
 
 
 .bx bx-map,
