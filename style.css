@@ -80,7 +80,7 @@
     color: limegreen;
     transition: color 0.3s ease;
     background-color: #f0f0f0;
-    text-decoration: underline;
+    width:100%;
 }
 
 
@@ -103,9 +103,7 @@
   z-index: 10000;
 }
 
-/*.li .a:hover {
-  background-color: #111;
-}*/
+
 
 body {
   background: #f4f4f4;
