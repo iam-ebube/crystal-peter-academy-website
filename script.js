@@ -35,6 +35,20 @@ let currentSlide = 0;
 
   setInterval(showNextSlide, 3000);// Change every 3 seconds 
 
+//hide email from email scrappers
+  document.addEventListener("DOMContentLoaded", function () {
+    const user = "crystalacademy";
+    const domain = "gmail.com";
+    const email = user + "@" + domain;
+    document.getElementById("email").innerText = email;
+    document.getElementById("email").href = "mailto:" + email;
+  });
+
+
+
+
+
 
  
+
 
