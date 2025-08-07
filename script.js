@@ -37,7 +37,7 @@ let currentSlide = 0;
 
 //hide email from email scrappers
   document.addEventListener("DOMContentLoaded", function () {
-    const user = "crystalacademy";
+    const user = "crystalpeteracademy";
     const domain = "gmail.com";
     const email = user + "@" + domain;
     document.getElementById("email").innerText = email;
@@ -50,5 +50,6 @@ let currentSlide = 0;
 
 
  
+
 
 
