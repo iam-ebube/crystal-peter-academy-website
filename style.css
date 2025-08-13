@@ -133,7 +133,7 @@ header {
   padding: 5px 0;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  height:10px;
+  height:100px;
   }
 
 .container {
@@ -302,6 +302,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
