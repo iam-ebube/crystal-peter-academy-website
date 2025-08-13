@@ -52,9 +52,7 @@ html {
   margin-right: 10px;
 }
 
-.text-block {
-  text-align: right; /* Aligns h1 + p to the right */
-}
+
 
 /* Sidebar menu styling */
 #sidebar {
@@ -307,6 +305,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
