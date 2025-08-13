@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth; /* Optional */
-  scroll-padding-top: 60px; /* Equal to your navbar height */
+  scroll-padding-top: 80px; /* Equal to your navbar height */
 }
 
 * {
@@ -299,6 +299,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
