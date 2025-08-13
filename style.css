@@ -151,8 +151,7 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
    padding-top: 60px;  /* Make room for navbar */
-  margin-top: -60px;  /* Visually pull it back up */
-}
+ }
 
 
 
@@ -299,6 +298,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
