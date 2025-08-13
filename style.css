@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth; /* Optional */
-  scroll-padding-top: 80px; /* Equal to your navbar height */
+  scroll-padding-top: 60px; /* Equal to your navbar height */
 }
 
 * {
@@ -16,7 +16,7 @@ html {
   width: 100%;
   max-width: 800px;
   height: 800px;
-  margin: 0 auto;
+  margin: 0 40px;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -133,8 +133,7 @@ header {
   padding: 20px 0;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  font-size: 18px; 
-}
+  }
 
 .container {
   width: 90%;
@@ -300,6 +299,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
