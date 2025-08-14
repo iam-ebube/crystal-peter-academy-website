@@ -271,26 +271,17 @@ a.whatsapp {
   text-decoration: none;
 }
 
-.bx.bxl-tiktok,
-.bx bxl-linkedin,
-.bx bxl-facebook,
-.bx bxl-twitter,
-.bx bxl-instagram,
-.bx bxl-whatsapp {
+i.bx {
   font-size:60px;
-  text-decoration: none;
-}
+  }
 
-.copyright-text {
-  white-space: nowrap;      /* prevents line break */
-  font-size: 14px;          /* smaller size helps fit */
-}
+
 
 .copyright-text {
   text-align: center;
   padding: 10px 15px;
-  font-size: 14px;
-  white-space: nowrap;
+  white-space: nowrap;      /* prevents line break */
+  font-size: 14px;          /* smaller size helps fit */
 }
 
 .ebube{
@@ -305,6 +296,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
