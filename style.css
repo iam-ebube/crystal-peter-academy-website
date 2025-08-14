@@ -277,7 +277,7 @@ a.bx bxl-facebook,
 a.bx bxl-twitter,
 a.bx bxl-instagram,
 a.bx bxl-whatsapp {
-  font-size:45px;
+  font-size:60px;
   text-decoration: none;
 }
 
@@ -305,6 +305,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
