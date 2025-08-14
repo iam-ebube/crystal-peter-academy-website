@@ -253,6 +253,14 @@ figcaption {
             font-size: 18px;
             color: #e0e0e0;
         }
+.iframemap{
+  display:block;
+  width:90%;
+  height:80%;
+  max-width: 1000px;
+  margin:auto;
+  border:0;
+  }
 
 footer {
   text-align: center;
@@ -300,6 +308,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
