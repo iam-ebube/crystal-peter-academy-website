@@ -271,7 +271,7 @@ a.whatsapp {
   text-decoration: none;
 }
 
-.bx bxl-tiktok,
+.bx.bxl-tiktok,
 .bx bxl-linkedin,
 .bx bxl-facebook,
 .bx bxl-twitter,
@@ -305,6 +305,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
