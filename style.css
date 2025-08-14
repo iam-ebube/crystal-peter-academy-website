@@ -256,7 +256,7 @@ figcaption {
 .iframemap{
   display:block;
   width:90%;
-  height:80%;
+  height:100%;
   max-width: 1000px;
   margin:auto;
   border:0;
@@ -308,6 +308,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
