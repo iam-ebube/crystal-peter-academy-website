@@ -186,6 +186,11 @@ figure {
   margin-bottom: 20px;
 }
 
+figure>video{
+  display:block;
+  margin:auto;
+}
+
 figcaption {
   text-align: center;
   font-size: 14px;
@@ -293,6 +298,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
