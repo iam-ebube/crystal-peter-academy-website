@@ -52,8 +52,6 @@ html {
   margin-right: 10px;
 }
 
-
-
 /* Sidebar menu styling */
 #sidebar {
   position: fixed;
@@ -94,7 +92,6 @@ html {
 #sidebar ul li a:hover {
     color: limegreen;
     transition: color 0.3s ease;
-    
 }
 
 
@@ -126,7 +123,6 @@ body {
 }
 
 header {
-  
   top: 0;
   z-index: 1000;
   background: #008000;
@@ -136,9 +132,6 @@ header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
  } 
 
-
-
-
 .container {
   width: 90%;
   max-width: 1000px;
@@ -146,19 +139,14 @@ header {
   padding: 30px 0;
 }
 
-
-
 section {
   margin: 60px 0;
   padding: 20px;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-   padding-top: 60px;  /* Make room for navbar */
+  padding-top: 60px;  /* Make room for navbar */
  }
-
-
-
 
 .contact-item {
   display: flex;
@@ -181,8 +169,6 @@ section {
   text-decoration: none;
   line-height: 1.5;
 }
-
-
 
 .bx bx-map,
 bx bx-phone,
@@ -207,7 +193,6 @@ figcaption {
   margin: 10px,0;
 }
 
-
 .contact-info {
   list-style-type: none;
   padding: 0;
@@ -218,41 +203,42 @@ figcaption {
 }
 
 .school-stats {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            background-color: #808080; /* Grey background */
-            border-radius: 10px;
-            color: white;
-        }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #808080; /* Grey background */
+  border-radius: 10px;
+  color: white;
+}
 
-        .stat-item {
-            text-align: center;
-            padding: 20px;
-            min-width: 200px;
-        }
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+}
 
-        .stat-icon {
-            font-size: 48px;
-            margin-bottom: 15px;
-            color: #ffffff;
-        }
+.stat-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
 
-        .stat-number {
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
+.stat-number {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
 
-        .stat-label {
-            font-size: 18px;
-            color: #e0e0e0;
-        }
+.stat-label {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
 .iframemap{
   display:block;
   width:90%;
@@ -288,8 +274,6 @@ i.bx:hover {
   transform: scale(1.2); /* makes it 20% bigger on hover */
 }
 
-
-
 .copyright-text {
   text-align: center;
   padding: 10px 15px;
@@ -309,6 +293,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
