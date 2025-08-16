@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   sidebarLinks.forEach(link => {
     link.addEventListener('click', () => {
       sidebar.classList.remove('active');
+      hamburger.style.display="block";
     });
   });
 });
@@ -45,6 +46,7 @@ let currentSlide = 0;
 
 
  
+
 
 
 
