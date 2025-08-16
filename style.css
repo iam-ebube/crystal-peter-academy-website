@@ -128,8 +128,7 @@ body {
 header {
   top: 0;
   z-index: 1000;
-  /*background: #008000;*/
-  background:black;
+  background: #008000;
   color: white;
   padding: 5px 0;
   text-align: center;
@@ -321,6 +320,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
