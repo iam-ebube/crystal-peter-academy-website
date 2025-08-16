@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Close sidebar when 'X' is clicked
   closeIcon.addEventListener('click', () => {
     sidebar.classList.remove('active');
+    hamburger.style.display="block";
   });
 
   // Close sidebar when any link is clicked
@@ -44,6 +45,7 @@ let currentSlide = 0;
 
 
  
+
 
 
 
