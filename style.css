@@ -188,6 +188,7 @@ h2 {
 
 .h-schoolgallery{
   margin:10px;
+  clear:both;
 }
 
 @media (min-width: 768px) {
@@ -322,6 +323,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
