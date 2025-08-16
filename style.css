@@ -215,7 +215,7 @@ figure {
   height: auto;     
   display: block;
   margin: auto;
- }
+  }
 
 
 figcaption {
@@ -326,6 +326,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
