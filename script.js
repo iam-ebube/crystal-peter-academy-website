@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Open sidebar when hamburger is clicked
   hamburger.addEventListener('click', () => {
     sidebar.classList.add('active');
+    hamburger.style.display="none";
   });
 
   // Close sidebar when 'X' is clicked
@@ -43,6 +44,7 @@ let currentSlide = 0;
 
 
  
+
 
 
 
