@@ -152,22 +152,23 @@ section {
  }
 
 .contact-item {
-  display: flex;
-  align-items: flex-start; /* align icon and text from the top */
-  font-size: 14px;
-  margin-bottom: 12px;
-}
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+flex-wrap: nowrap; /* Prevent wrapping under icon */
 
-.contact-item i {
-  flex: 0 0 24px;   /* fixed width for the icon */
-  font-size: 18px;  /* make sure icon looks nice */
-  margin-right: 8px;
-}
+.contact-item i { 
+  margin-right: 10px;
+font-size: 20px; 
+color: #333;
+flex-shrink: 0; /* Prevent icon from shrinking */
 
-.contact-item span {
-  flex: 1; /* take the rest of the space */
-  display: block;
-}
+.contact-item span,
+ .contact-item a {
+font-size: 16px;
+color: #333;
+text-decoration: none;
+line-height: 1.5;
 
 .bx bx-map,
 bx bx-phone,
