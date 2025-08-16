@@ -197,8 +197,7 @@ figure>video{
   height: auto;     /* keeps the aspect ratio */
   display: block;
   margin: auto;
-  max-height: 300px;
-}
+ }
 
 
 figcaption {
@@ -308,6 +307,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
