@@ -16,9 +16,6 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.contact-item {
-    font-size: 14px;
-  }
 
 
 .school-stats {
@@ -61,4 +58,34 @@
   grid-template-columns: 1fr; /* default: one column (for phone) */
   gap: 20px; /* spacing between items */
 }
+
+/*.contact-item {
+    font-size: 14px;
+  }*/
+
+
+
+  .contact-item {
+    font-size: 14px;
+    flex-wrap: wrap; /* Allow wrapping */
+    align-items: flex-start; /* Align items to the top */
+  }
+
+  .contact-item i {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust if needed */
+    color: #333;
+    flex-shrink: 0;
+  }
+
+  .contact-item span,
+  .contact-item a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    line-height: 1.5;
+    display: inline; /* Ensure text flows naturally */
+    white-space: normal; /* Allow wrapping at any point */
+  }
+
         
