@@ -188,6 +188,7 @@ h2 {
 
 @media (min-width: 768px) {
  .grid-container {
+  display:grid; 
   grid-template-columns: repeat(3, 1fr); /* 3 columns */
   }
 }
@@ -314,6 +315,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
