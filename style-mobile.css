@@ -1,3 +1,32 @@
+
+html {
+  scroll-behavior: smooth; /* Optional */
+  scroll-padding-top: 55px; /* Equal to your navbar height */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+section {
+  margin: 60px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  padding-top: 60px;  /* Make room for navbar */
+ }
+
 #sidebar {
   width: 80%; /* Wider on mobile */
 }
