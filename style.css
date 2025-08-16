@@ -190,10 +190,6 @@ figure {
   margin-bottom: 20px;
 }
 
-figure>video{
-  display:block;
-  margin:auto;
-}
 
 .video {
   max-width: 500px; /* or 400px, depending on how small you want it */
@@ -312,6 +308,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
