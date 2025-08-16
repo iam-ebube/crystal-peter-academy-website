@@ -14,7 +14,7 @@ html {
 .carousel {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   height: 800px;
   margin: 0 auto ;
   overflow: hidden;
@@ -308,6 +308,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
