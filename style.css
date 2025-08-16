@@ -191,6 +191,7 @@ h2 {
   clear: both;
   margin-bottom: 20px;
   display: block;
+  width:100%;
 }
 
 /* Grid for bigger screens */
@@ -325,6 +326,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
