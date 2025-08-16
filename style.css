@@ -189,15 +189,17 @@ h2 {
 .h-schoolgallery{
   margin:10px;
   clear:both;
+  margin-bottom:20px;
 }
 
 @media (min-width: 768px) {
  .grid-container {
   display:grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 30% 30% 30%;
   max-width:1000px;
   margin:auto;
   width:90%; 
+  padding:20px; 
   }
 }
 
@@ -323,6 +325,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
