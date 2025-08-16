@@ -187,11 +187,7 @@ h2 {
 }
 
 .h-schoolgallery {
-  margin: 10px;
-  clear: both;
-  margin-bottom: 20px;
-  display: block;
-  width:100%;
+  margin: 30px;
 }
 
 /* Grid for bigger screens */
@@ -327,6 +323,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
