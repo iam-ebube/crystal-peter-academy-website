@@ -205,6 +205,7 @@ figcaption {
   font-size: 14px;
   color: #444;
   margin: 10px,0;
+  font-weight:bold;
 }
 
 .contact-info {
@@ -307,6 +308,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
