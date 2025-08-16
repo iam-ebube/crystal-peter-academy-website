@@ -186,10 +186,9 @@ h2 {
   text-align:center;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
+ .grid-container {
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  }
 
 figure {
   margin-bottom: 20px;
@@ -313,6 +312,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
