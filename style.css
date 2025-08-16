@@ -16,7 +16,7 @@ html {
   width: 100%;
   max-width: 1000px;
   height: 800px;
-  /*margin: 0 auto ;*/
+  margin: 0 auto ;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -311,6 +311,7 @@ footer a {
 footer a:hover {
   color: #ffc107; /* Yellow hover color */
 }
+
 
 
 
