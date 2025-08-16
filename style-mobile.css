@@ -19,24 +19,47 @@
 }
 
 .school-stats {
-                flex-direction: column;
-                padding: 30px 10px;
-            }
+    flex-direction: column;
+    padding: 30px 10px;
+}
             
-            .stat-item {
-                margin-bottom: 30px;
-                min-width: 150px;
-            }
+.stat-item {
+    margin-bottom: 30px;
+    min-width: 150px;
+}
             
-            .stat-icon {
-                font-size: 40px;
-            }
+.stat-icon {
+    font-size: 40px;
+}
             
-            .stat-number {
-                font-size: 28px;
-            }
-            
-            .stat-label {
-                font-size: 16px;
-            }
+.stat-number {
+    font-size: 28px;
+}
+
+.stat-label {
+    font-size: 16px;
+}
+
+figure {
+  margin-bottom: 20px;
+}
+
+
+.video {
+  max-width: 500px; /* or 400px, depending on how small you want it */
+  width: 100%;      /* makes it responsive */
+  height: auto;     /* keeps the aspect ratio */
+  display: block;
+  margin: auto;
+ }
+
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  margin: 10px,0;
+  font-weight:bold;
+}
+
         
